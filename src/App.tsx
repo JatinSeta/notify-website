@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import UserPage from './components/UserPage/UserPage.tsx';
 import Home from './components/Home.tsx';
 
