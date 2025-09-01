@@ -61,6 +61,17 @@ import { Link } from "lucide-react";
   const closePhotoModal = () => {
     setSelectedPhoto(null);
   };
+  useEffect(() => {
+  if (selectedPhoto) {
+    document.body.style.overflow = "hidden"; // Disable scroll
+  } else {
+    document.body.style.overflow = "auto"; // Enable scroll
+  }
+  return () => {
+    document.body.style.overflow = "auto"; // Cleanup
+  };
+}, [selectedPhoto]);
+
      const renderTabContent = () => {
             switch (activeTab) {
 case "overview":
