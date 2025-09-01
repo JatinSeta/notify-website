@@ -10,16 +10,25 @@ import { Link } from "lucide-react";
         ];
 
         const initialPhotos = [
-        "https://placehold.co/300x200/c084fc/ffffff?text=Styling+Chair",
-        "https://placehold.co/300x200/f472b6/ffffff?text=Nail+Art",
-        "https://placehold.co/300x200/34d399/ffffff?text=Hair+Color",
-        "https://placehold.co/300x200/60a5fa/ffffff?text=Salon+Interior",
+        "https://images.unsplash.com/photo-1608869776252-33ff061fabf2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpciUyMGN1dCUyMCUyMGJveSUyMHNhbG9ufGVufDB8fDB8fHww",
+        "https://media.istockphoto.com/id/638568556/photo/retro-styled-barbershop.webp?a=1&b=1&s=612x612&w=0&k=20&c=fo1EoIdjVwMTiqJwJfUE-p8S392-jqZ72iDt0WyUGfM=",
+        "https://plus.unsplash.com/premium_photo-1664048713117-bf8a405e4933?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA5fHxiZWF1dHklMjBzYWxvbnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://media.istockphoto.com/id/2150776419/photo/woman-at-the-hair-salon.webp?a=1&b=1&s=612x612&w=0&k=20&c=-CYkVbJtR1bl5PYYBOez_tT9lX5oINY-srzRg4pKm0U=",
         ];
 
         const morePhotos = [
-        "https://placehold.co/300x200/fbbf24/ffffff?text=Massage+Room",
-        "https://placehold.co/300x200/f87171/ffffff?text=Manicure+Tools",
-        "https://placehold.co/300x200/22d3ee/ffffff?text=Makeup+Session",
+        "https://plus.unsplash.com/premium_photo-1664049362632-fa2abdf16064?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SGFpciUyMGNvbG91ciUyMHNhbG9ufGVufDB8fDB8fHww",
+        "https://plus.unsplash.com/premium_photo-1661684840761-64f23dd8615d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fEhhaXIlMjBjb2xvdXIlMjBzYWxvbnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG5haWwlMjBzYWxvbnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1559006045-d34d415b2cff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fG5haWwlMjBzYWxvbnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1588015810531-dd522c9c8bbb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fG5haWwlMjBzYWxvbnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1704072650662-76df3af134a7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGFpciUyMGN1dCUyMCUyMGJveSUyMHNhbG9ufGVufDB8fDB8fHww",
+        "https://media.istockphoto.com/id/872361244/photo/man-getting-his-beard-trimmed-with-electric-razor.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZFGPZr_9hJwGPMe-J24YJpf69aCnrzV98FLyhejtgj8=",
+        "https://plus.unsplash.com/premium_photo-1661715656737-505d62059a14?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTd8fG1lbiUyMGN1dCUyMGhhaXIlMjBzYWxvbnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1675034743339-0b0747047727?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJlYXV0eSUyMHNhbG9ufGVufDB8fDB8fHww",
+       
+        "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODN8fHNhbG9ufGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1539838856710-00231604c681?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHNhbG9uJTIwYm95JTIwY29sb3VyJTIwaGFpcnxlbnwwfHwwfHx8MA%3D%3D",
         ];
 
         // Your extra images for below main image gallery
@@ -32,8 +41,26 @@ import { Link } from "lucide-react";
         ];
 
         export default function UserPage() {
-        const [activeTab, setActiveTab] = useState("overview");
         const [showMorePhotos, setShowMorePhotos] = useState(false);
+          const [activeTab, setActiveTab] = useState("overview");
+  const [photosToShow, setPhotosToShow] = useState(4);
+    const [selectedPhoto, setSelectedPhoto] = useState<string | null>(null);
+  const allPhotos = [...initialPhotos, ...morePhotos];
+
+  const handleShowMore = () => {
+    setPhotosToShow((prev) => Math.min(prev + 4, allPhotos.length));
+  };
+
+  const handleShowLess = () => {
+    setPhotosToShow(4);
+  };
+    const openPhotoModal = (src: string) => {
+    setSelectedPhoto(src);
+  };
+
+  const closePhotoModal = () => {
+    setSelectedPhoto(null);
+  };
      const renderTabContent = () => {
             switch (activeTab) {
 case "overview":
@@ -136,41 +163,39 @@ case "overview":
             </div>
         </div>
     );
-  case "photos":
+ case "photos":
+        const visiblePhotos = allPhotos.slice(0, photosToShow);
+        const hasMore = photosToShow < allPhotos.length;
+        const isExpanded = photosToShow > 4;
+
         return (
-            <div className="card">
+          <div className="card">
             <h2 className="card-title">Photos</h2>
-        <div className="photo-grid">
-    {initialPhotos.map((src, idx) => (
-        <img
-        key={idx}
-        src={src}
-        className="gallery-img"
-        alt={`Gallery photo ${idx + 1}`}
-        />
-    ))}
-
-    {showMorePhotos &&
-        morePhotos.map((src, idx) => (
-        <img
-            key={idx + initialPhotos.length}
-            src={src}
-            className="gallery-img"
-            alt={`Gallery photo ${idx + initialPhotos.length + 1}`}
-        />
-        ))}
-    </div>
-
-            {/* Show button only if morePhotos has images */}
-            {morePhotos.length > 0 && (
-                <button
-                className="show-more-btn"
-                onClick={() => setShowMorePhotos((prev) => !prev)}
-                >
-                {showMorePhotos ? "Show Less" : "Show More"}
-                </button>
-            )}
+            <div className="photo-grid">
+              {visiblePhotos.map((src, idx) => (
+                <img
+                  key={idx}
+                  src={src}
+                  onClick={() => openPhotoModal(src)}
+                  className="gallery-img"
+                  alt={`Gallery photo ${idx + 1}`}
+                />
+              ))}
             </div>
+
+            <div style={{ marginTop: "1rem", display: "flex", gap: "10px" }}>
+              {hasMore && (
+                <button className="show-more-btn" onClick={handleShowMore}>
+                  Show More
+                </button>
+              )}
+              {isExpanded && (
+                <button className="show-more-btn" onClick={handleShowLess}>
+                  Show Less
+                </button>
+              )}
+            </div>
+          </div>
         );
 
             case "reviews":
@@ -268,12 +293,7 @@ default:
                 return null;
             }
         };
-  const scrollToSection = (href: string) => {
-    if (href.startsWith('#')) {
-      const element = document.querySelector(href);
-      element?.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+
         return (
         <>
             <div className="container">
@@ -329,29 +349,45 @@ default:
                     />
                     </div>
         <div className="gallery-thumbnails">
-        {galleryImages.slice(1).map((src, idx, arr) => {
+{galleryImages.slice(1).map((src, idx, arr) => {
             const isLast = idx === arr.length - 1;
             return (
-            <div
+              <div
                 key={idx}
-                onClick={() => {
-                if (isLast) setActiveTab("photos");
-                }}
-            >
+                className="thumbnail-wrapper"
+                style={{ position: "relative" }}
+                
+            onClick={() => {
+  if (isLast) {
+    setActiveTab("photos");
+    setTimeout(() => {
+      const el = document.getElementById("photo-tab-section");
+      if (el) {
+        const yOffset = -80; // Scroll a little less
+        const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }
+    }, 100);
+  }
+}}
+
+
+              >
                 <img
-                src={src}
-                alt={`Gallery thumbnail ${idx + 1}`}
-                className="gallery-img"
-                style={{ cursor: isLast ? "pointer" : "default" }}
+                  src={src}
+                  alt={`Thumbnail ${idx + 1}`}
+                  className="gallery-img"
+                  style={{ cursor: isLast ? "pointer" : "default" }}
                 />
                 {isLast && (
-                <div>
-                    See All
-                </div>
+                  <div className="see-all-overlay">See All</div>
                 )}
-            </div>
+              </div>
             );
-        })}
+          })}
+
+
         </div>
 
 
@@ -374,7 +410,10 @@ default:
             </div>
  
             {/* Tab Content */}
-            <div className="tab-content">{renderTabContent()}</div>
+           <div className="tab-content" id="photo-tab-section">
+  {renderTabContent()}
+</div>
+
                     <section className="promotions-section">
         <div className="promotions-container">
             <h2 className="promotions-title">Offers</h2>
@@ -456,7 +495,19 @@ default:
       </section>
     </div>
             </div>
-
+{selectedPhoto && (
+        <div className="modal-overlay" onClick={closePhotoModal}>
+          <img
+            src={selectedPhoto}
+            alt="Full View"
+            className="modal-image"
+            onClick={(e) => e.stopPropagation()}
+          />
+          <button className="modal-close" onClick={closePhotoModal}>
+            ×
+          </button>
+        </div>
+      )}
         </>
             
             
