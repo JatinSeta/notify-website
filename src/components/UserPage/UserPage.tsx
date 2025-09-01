@@ -278,7 +278,7 @@ default:
         <>
             <div className="container">
             {/* Header */}
- <header className="header">
+  <header className="header">
         <div className="header-top">
             <div className="header-info">
                 <div className="logo-section">
@@ -295,23 +295,23 @@ default:
                 <p>Haircuts, Coloring, Facials, Manicures</p>
                 <p className="address">Virar West, Mumbai</p>
             </div>
-
             <div className="right-section">
-                <div className="ratings-share">
-                    <div className="rating-display">
-                        <span className="rating-badge">4.8 ★</span>
-                        <span className="rating-count">800+ Ratings</span>
+                <div className="mobile-row">
+                    <div className="ratings-share">
+                        <div className="rating-display">
+                            <span className="rating-badge">4.8 ★</span>
+                            <span className="rating-count">800+ Ratings</span>
+                        </div>
                     </div>
+                    <button className="appointment-btn" >Book Appointment</button>
                 </div>
-
-                <button className="appointment-btn" >Book Appointment</button>
-                
                 <div className="working-hours">
-                    <p><strong>Hours:</strong> Tue - Sun : 9PM - 10AM | Mon: Closed</p>
+                    <p><strong>Hours:</strong> Tue - Sun: 9 AM - 10 PM | Mon: Closed</p>
                 </div>
             </div>
         </div>
     </header>
+
 
 
 
