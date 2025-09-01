@@ -278,11 +278,11 @@ default:
         <>
             <div className="container">
             {/* Header */}
- <header class="header">
-        <div class="header-top">
-            <div class="header-info">
-                <div class="logo-section">
-                    <svg class="salon-logo" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <header className="header">
+        <div className="header-top">
+            <div className="header-info">
+                <div className="logo-section">
+                    <svg className="salon-logo" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="30" cy="30" r="28" fill="#25d366" stroke="#047857" stroke-width="2"/>
                         <path d="M20 25 C20 20, 25 15, 30 15 C35 15, 40 20, 40 25 C40 30, 35 35, 30 35 C25 35, 20 30, 20 25 Z" fill="white"/>
                         <circle cx="25" cy="25" r="2" fill="#047857"/>
@@ -293,20 +293,20 @@ default:
                     <h1>Modern Style Salon</h1>
                 </div>
                 <p>Haircuts, Coloring, Facials, Manicures</p>
-                <p class="address">Virar West, Mumbai</p>
+                <p className="address">Virar West, Mumbai</p>
             </div>
 
-            <div class="right-section">
-                <div class="ratings-share">
-                    <div class="rating-display">
-                        <span class="rating-badge">4.8 ★</span>
-                        <span class="rating-count">800+ Ratings</span>
+            <div className="right-section">
+                <div className="ratings-share">
+                    <div className="rating-display">
+                        <span className="rating-badge">4.8 ★</span>
+                        <span className="rating-count">800+ Ratings</span>
                     </div>
                 </div>
 
-                <button class="appointment-btn" onclick="bookAppointment()">Book Appointment</button>
+                <button className="appointment-btn" >Book Appointment</button>
                 
-                <div class="working-hours">
+                <div className="working-hours">
                     <p><strong>Hours:</strong> Tue - Sun : 9PM - 10AM | Mon: Closed</p>
                 </div>
             </div>
@@ -375,47 +375,47 @@ default:
  
             {/* Tab Content */}
             <div className="tab-content">{renderTabContent()}</div>
-                    <section class="promotions-section">
-        <div class="promotions-container">
-            <h2 class="promotions-title">Offers</h2>
+                    <section className="promotions-section">
+        <div className="promotions-container">
+            <h2 className="promotions-title">Offers</h2>
             
-            <div class="promotions-grid">
-                <div class="promotion-card">
-                    <div class="discount-badge">20% OFF</div>
-                    <div class="promotion-content">
-                        <h3 class="promotion-title">Haircuts Special</h3>
-                        <p class="promotion-details">Get 20% off your first haircut at Modern Style Salon. Limited time offer for new customers!</p>
-                        <div class="promotion-expiry">
-                            <span class="expiry-label">Valid until:</span>
-                            <span class="expiry-date">September 30th</span>
+            <div className="promotions-grid">
+                <div className="promotion-card">
+                    <div className="discount-badge">20% OFF</div>
+                    <div className="promotion-content">
+                        <h3 className="promotion-title">Haircuts Special</h3>
+                        <p className="promotion-details">Get 20% off your first haircut at Modern Style Salon. Limited time offer for new customers!</p>
+                        <div className="promotion-expiry">
+                            <span className="expiry-label">Valid until:</span>
+                            <span className="expiry-date">September 30th</span>
                         </div>
-                        <button class="promotion-btn" onclick="bookPromotion('haircut')">Book Now</button>
+                        <button className="promotion-btn" >Book Now</button>
                     </div>
                 </div>
 
-                <div class="promotion-card">
-                    <div class="discount-badge seasonal">FREE GIFT</div>
-                    <div class="promotion-content">
-                        <h3 class="promotion-title">Facial Service Bonus</h3>
-                        <p class="promotion-details">Get a free premium skincare product with any facial service. Choose from our exclusive collection!</p>
-                        <div class="promotion-expiry">
-                            <span class="expiry-label">Valid until:</span>
-                            <span class="expiry-date">October 15th</span>
+                <div className="promotion-card">
+                    <div className="discount-badge seasonal">FREE GIFT</div>
+                    <div className="promotion-content">
+                        <h3 className="promotion-title">Facial Service Bonus</h3>
+                        <p className="promotion-details">Get a free premium skincare product with any facial service. Choose from our exclusive collection!</p>
+                        <div className="promotion-expiry">
+                            <span className="expiry-label">Valid until:</span>
+                            <span className="expiry-date">October 15th</span>
                         </div>
-                        <button class="promotion-btn" onclick="bookPromotion('facial')">Book Now</button>
+                        <button className="promotion-btn">Book Now</button>
                     </div>
                 </div>
 
-                <div class="promotion-card">
-                    <div class="discount-badge combo">COMBO DEAL</div>
-                    <div class="promotion-content">
-                        <h3 class="promotion-title">Hair & Nails Package</h3>
-                        <p class="promotion-details">Book a haircut and manicure together and save 15% on the total service. Perfect for a complete makeover!</p>
-                        <div class="promotion-expiry">
-                            <span class="expiry-label">Valid until:</span>
-                            <span class="expiry-date">November 30th</span>
+                <div className="promotion-card">
+                    <div className="discount-badge combo">COMBO DEAL</div>
+                    <div className="promotion-content">
+                        <h3 className="promotion-title">Hair & Nails Package</h3>
+                        <p className="promotion-details">Book a haircut and manicure together and save 15% on the total service. Perfect for a complete makeover!</p>
+                        <div className="promotion-expiry">
+                            <span className="expiry-label">Valid until:</span>
+                            <span className="expiry-date">November 30th</span>
                         </div>
-                        <button class="promotion-btn" onclick="bookPromotion('combo')">Book Now</button>
+                        <button className="promotion-btn" >Book Now</button>
                     </div>
                 </div>
             </div>
