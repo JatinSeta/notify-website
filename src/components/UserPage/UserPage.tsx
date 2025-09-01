@@ -357,6 +357,7 @@ default:
                         src={galleryImages[0]}
                         alt="Salon Interior"
                         className="gallery-img main-image"
+                        
                     />
                     </div>
         <div className="gallery-thumbnails">
@@ -404,21 +405,18 @@ default:
 
                 </div>
 
-            {/* Tabs BELOW image */}
-            <div className="tabs-nav mb-6">
-                {TABS.map((tab) => (
-                <button
-                    key={tab.id}
-                    className={`tab ${activeTab === tab.id ? "tab-active" : ""}`}
-                    onClick={() => {
-                    setActiveTab(tab.id);
-                    if (tab.id !== "photos") setShowMorePhotos(false);
-                    }}
-                >
-                    {tab.label}
-                </button>
-                ))}
-            </div>
+   <div className="tabs-nav sticky-tabs">
+        {TABS.map((tab) => (
+          <button
+            key={tab.id}
+            className={`tab ${activeTab === tab.id ? "tab-active" : ""}`}
+            onClick={() => setActiveTab(tab.id)}
+          >
+            {tab.label}
+          </button>
+        ))}
+      </div>
+
  
             {/* Tab Content */}
            <div className="tab-content" id="photo-tab-section">

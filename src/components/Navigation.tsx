@@ -80,7 +80,7 @@ export function Navigation() {
             >
               <Button 
                 onClick={() => scrollToSection('#pricing')}
-                className="glass"
+                // className="glass"
                 style={{ background: 'var(--gradient-primary)' }}
               >
                 Start Free Trial
