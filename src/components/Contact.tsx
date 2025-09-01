@@ -84,14 +84,14 @@ export function Contact() {
                       <SelectValue placeholder="Select your business type" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="salon">Beauty & Salon</SelectItem>
-                      <SelectItem value="fitness">Fitness & Wellness</SelectItem>
-                      <SelectItem value="healthcare">Healthcare</SelectItem>
-                      <SelectItem value="retail">Retail & E-commerce</SelectItem>
-                      <SelectItem value="restaurant">Restaurant & Food</SelectItem>
-                      <SelectItem value="events">Events & Entertainment</SelectItem>
-                      <SelectItem value="realestate">Real Estate</SelectItem>
-                      <SelectItem value="other">Other</SelectItem>
+                      <SelectItem value="salon" className="Selected-contact">Beauty & Salon</SelectItem>
+                      <SelectItem value="fitness" className="Selected-contact">Fitness & Wellness</SelectItem>
+                      <SelectItem value="healthcare" className="Selected-contact">Healthcare</SelectItem>
+                      <SelectItem value="retail" className="Selected-contact">Retail & E-commerce</SelectItem>
+                      <SelectItem value="restaurant" className="Selected-contact">Restaurant & Food</SelectItem>
+                      <SelectItem value="events" className="Selected-contact">Events & Entertainment</SelectItem>
+                      <SelectItem value="realestate" className="Selected-contact">Real Estate</SelectItem>
+                      <SelectItem value="other" className="Selected-contact">Other</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>

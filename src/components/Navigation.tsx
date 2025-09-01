@@ -8,7 +8,7 @@ const navigation = [
   { name: 'How It Works', href: '#how-it-works' },
   { name: 'Features', href: '#features' },
   { name: 'For Businesses', href: '#businesses' },
-  { name: 'Pricing', href: '#pricing' },
+  { name: 'Pricing', href: '#pricing' },  
   { name: 'Reviews', href: '#reviews' },
   { name: 'FAQ', href: '#faq' },
   { name: 'Contact', href: '#contact' },
@@ -28,9 +28,13 @@ export function Navigation() {
 
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
-    element?.scrollIntoView({ behavior: 'smooth' });
-    setIsOpen(false);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+      // Delay closing so scroll works correctly
+      setTimeout(() => setIsOpen(false), 800);
+    }
   };
+
 
   return (
     <motion.nav 
@@ -80,7 +84,7 @@ export function Navigation() {
             >
               <Button 
                 onClick={() => scrollToSection('#pricing')}
-                // className="glass"
+                
                 style={{ background: 'var(--gradient-primary)' }}
               >
                 Start Free Trial
